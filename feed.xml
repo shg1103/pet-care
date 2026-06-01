@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>宠物养护站</title>
+    <link>https://chongwu.github.io/</link>
+    <description>专注猫咪喂养、狗狗训练等内容的专业分享平台</description>
+    <language>zh-CN</language>
+    <item>
+      <title><![CDATA[用了3年的萌宠日常经验分享，全是干货]]></title>
+      <link>https://chongwu.github.io/articles/用了3年的萌宠日常经验分享全是干货.html</link>
+      <description><![CDATA[想知道萌宠日常的正确方法吗？本文从狗狗训练和宠物医疗两个角度出发，结合真实经验，为你提供一份可操作的萌宠日常指南。]]></description>
+      <pubDate>2026-05-24T08:00:00+08:00</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[萌宠日常避坑指南：新手最常犯的8个错误]]></title>
+      <link>https://chongwu.github.io/articles/萌宠日常避坑指南新手最常犯的8个错误.html</link>
+      <description><![CDATA[想知道萌宠日常的正确方法吗？本文从狗狗训练和宠物医疗两个角度出发，结合真实经验，为你提供一份可操作的萌宠日常指南。]]></description>
+      <pubDate>2026-06-02T08:00:00+08:00</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[狗狗训练避坑指南：新手最常犯的8个错误]]></title>
+      <link>https://chongwu.github.io/articles/狗狗训练避坑指南新手最常犯的8个错误.html</link>
+      <description><![CDATA[还在为狗狗训练发愁？这篇文章汇总了最新最全的狗狗训练攻略，涵盖猫咪喂养、狗狗训练等核心内容，看完就能用。]]></description>
+      <pubDate>2026-05-24T08:00:00+08:00</pubDate>
+    </item>
+</channel>
+</rss>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宠物养护站 - 专注猫咪喂养、狗狗训练等内容的专业分享平台</title>
+    <meta name="description" content="专注猫咪喂养、狗狗训练等内容的专业分享平台">
+    <meta name="keywords" content="猫咪喂养,狗狗训练,宠物医疗,品种选择,宠物用品,萌宠日常,领养指南">
+    <link rel="canonical" href="https://chongwu.github.io/">
+    <style>
+        :root { --bg:#fafafa; --card:#fff; --text:#222; --text-secondary:#666; --accent:#1a73e8; --border:#e0e0e0; --radius:8px; }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; background:var(--bg); color:var(--text); line-height:1.8; }
+        .container { max-width:820px; margin:0 auto; padding:20px; }
+        header { background:var(--card); border-bottom:1px solid var(--border); padding:16px 0; }
+        header .container { display:flex; justify-content:space-between; align-items:center; }
+        .logo { font-size:22px; font-weight:700; color:var(--accent); text-decoration:none; }
+        nav a { color:var(--text-secondary); text-decoration:none; margin-left:20px; font-size:14px; }
+        .hero { text-align:center; padding:48px 0 32px; }
+        .hero h1 { font-size:32px; margin-bottom:12px; }
+        .hero p { color:var(--text-secondary); font-size:16px; max-width:600px; margin:0 auto; }
+        .article-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:24px; }
+        .article-card { background:var(--card); border-radius:var(--radius); padding:20px; border:1px solid var(--border); text-decoration:none; color:var(--text); transition:box-shadow .2s; }
+        .article-card:hover { box-shadow:0 4px 12px rgba(0,0,0,0.08); }
+        .article-card h3 { font-size:17px; color:var(--accent); margin-bottom:8px; line-height:1.4; }
+        .article-card .cat { font-size:12px; color:var(--accent); background:#e8f0fe; padding:2px 8px; border-radius:12px; }
+        .article-card .excerpt { font-size:14px; color:var(--text-secondary); margin-top:8px; }
+        .article-card .meta { font-size:12px; color:var(--text-secondary); margin-top:8px; }
+        .pagination { text-align:center; margin:32px 0; }
+        .pagination a { display:inline-block; padding:8px 16px; margin:4px; border:1px solid var(--border); border-radius:var(--radius); text-decoration:none; color:var(--accent); }
+        .pagination a.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+        footer { background:var(--card); border-top:1px solid var(--border); padding:24px 0; margin-top:40px; text-align:center; color:var(--text-secondary); font-size:13px; }
+        @media (max-width:768px) { .article-grid { grid-template-columns:1fr; } .hero h1 { font-size:24px; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="logo">宠物养护站</a>
+            <nav><a href="/category/猫咪喂养/">猫咪喂养</a><a href="/category/狗狗训练/">狗狗训练</a><a href="/category/宠物医疗/">宠物医疗</a><a href="/category/品种选择/">品种选择</a><a href="/category/宠物用品/">宠物用品</a></nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <h1>宠物养护站</h1>
+            <p>专注猫咪喂养、狗狗训练等内容的专业分享平台</p>
+        </section>
+        <div class="article-grid">
+                <a href="/articles/用了3年的萌宠日常经验分享全是干货.html" class="article-card">
+                    <span class="cat">猫咪喂养</span>
+                    <h3>用了3年的萌宠日常经验分享，全是干货</h3>
+                    <p class="excerpt">想知道萌宠日常的正确方法吗？本文从狗狗训练和宠物医疗两个角度出发，结合真实经验，为你提供一份可操作的萌宠日常指南。...</p>
+                    <p class="meta">2026-05-24 · 3906阅读</p>
+                </a>
+                <a href="/articles/萌宠日常避坑指南新手最常犯的8个错误.html" class="article-card">
+                    <span class="cat">猫咪喂养</span>
+                    <h3>萌宠日常避坑指南：新手最常犯的8个错误</h3>
+                    <p class="excerpt">想知道萌宠日常的正确方法吗？本文从狗狗训练和宠物医疗两个角度出发，结合真实经验，为你提供一份可操作的萌宠日常指南。...</p>
+                    <p class="meta">2026-06-02 · 2594阅读</p>
+                </a>
+                <a href="/articles/狗狗训练避坑指南新手最常犯的8个错误.html" class="article-card">
+                    <span class="cat">猫咪喂养</span>
+                    <h3>狗狗训练避坑指南：新手最常犯的8个错误</h3>
+                    <p class="excerpt">还在为狗狗训练发愁？这篇文章汇总了最新最全的狗狗训练攻略，涵盖猫咪喂养、狗狗训练等核心内容，看完就能用。...</p>
+                    <p class="meta">2026-05-24 · 3389阅读</p>
+                </a></div>
+        <div class="pagination"><a href="/" class="active">1</a><a href="/page/2/">第2页</a></div>
+    </main>
+    <footer>
+        <p>&copy; 2026 宠物养护站 · <a href="/sitemap.xml">网站地图</a></p>
+    </footer>
+</body>
+</html>
